@@ -20,7 +20,7 @@ and mounted devices with multiple overwrite passes and random renaming.
 🚀 Installation
 ------------------------------------------------------------
 1. Clone the repo:
-   git clone https://github.com/your-username/ARYWIPE.git
+   git clone https://github.com/giriaryan694-a11y/ARYWIPE.git
    cd ARYWIPE
 
 2. Install requirements:
@@ -33,7 +33,7 @@ and mounted devices with multiple overwrite passes and random renaming.
 🔥 Usage
 ------------------------------------------------------------
 Run ARYWIPE directly:
-   python arywipe.py
+   python main.py
 
 Steps:
 1. Launch ARYWIPE
