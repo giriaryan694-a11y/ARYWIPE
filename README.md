@@ -9,12 +9,19 @@ and mounted devices with multiple overwrite passes and random renaming.
 ------------------------------------------------------------
 ⚡ Features
 ------------------------------------------------------------
-- 🔒 Military-grade wiping (multi-pass overwrite with random data)
-- 🔄 Anti-forensics renaming before deletion
-- 🗂️ Recursive directory wiping
-- 💽 Mounted device wipe (USBs, external drives)
-- 🎨 Dark hacker-style GUI built with PyQt5
-- 🖥️ Works on Windows & Linux
+- 🔒 **Military-grade wiping** – Multi-pass overwrite with random data, making file recovery extremely difficult.
+- 🔐 **AES Pre-encryption** – Files are encrypted with AES before wiping, adding an extra layer of security against data recovery.
+- 🔄 **Anti-forensics renaming** – Randomly renames files before deletion to hinder forensic recovery.
+- 🗂️ **Recursive directory wiping** – Delete entire folders with all their subfolders and files safely.
+- 💽 **Mounted device wipe** – Supports USB drives, external HDDs/SSDs, and other removable media.
+- 📊 **Progress tracking & per-file status** – Real-time updates of deletion progress with detailed per-file feedback.
+- 🧹 **Undo protection & caution alerts** – Warns before deleting critical files and prevents accidental wipes.
+- 🖥️ **Cross-platform** – Runs smoothly on both Windows and Linux environments.
+- 🎨 **Dark hacker-style GUI** – Built with PyQt5 for a sleek and immersive experience.
+- 🛠️ **Multi-threaded performance** – Handles multiple files and directories simultaneously without freezing the interface.
+- 📂 **Customizable wipe patterns** – Users can choose from multiple overwrite algorithms (1-pass, 3-pass, 7-pass).
+- 🔗 **Quick access to GitHub repo** – Button in GUI redirects to your project page for updates and contributions.
+
 
 ------------------------------------------------------------
 🚀 Installation
@@ -54,7 +61,6 @@ The author is not responsible for data loss or misuse.
 Future enhancements:
 - Add icons / branding for the GUI
 - Package with PyInstaller to create a .exe or .AppImage
-- Extend wiping algorithms (Gutmann, DoD 5220.22-M, etc.)
 
 Contributions & pull requests are welcome.
 
