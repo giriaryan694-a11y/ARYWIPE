@@ -1,3 +1,9 @@
+## Screenshots
+
+![Screenshot 1](screenshots/screenshot1.png)
+![Screenshot 2](screenshots/screenshot2.png)
+![Screenshot 3](screenshots/screenshot3.png)
+
 # 💀 ARYWIPE – Final README (Professional Edition)
 
 ## **Secure Data Destruction Tool**
@@ -12,7 +18,7 @@
 
 ## 🔒 **About The Project**
 
-ARYWIPE is a cross-platform data destruction utility designed for **permanent, irreversible deletion** of sensitive information. Unlike ordinary deletion methods that leave recoverable traces, ARYWIPE uses **multi-layer sanitization**, **cryptographic shredding**, and **anti-forensic techniques** to eliminate any meaningful recovery path.
+ARYWIPE is a cross‑platform data destruction utility designed for **permanent, irreversible deletion** of sensitive information. Unlike ordinary deletion methods that leave recoverable traces, ARYWIPE uses **multi-layer sanitization**, **cryptographic shredding**, and **anti-forensic techniques** to eliminate any meaningful recovery path.
 
 This tool is intended for:
 
@@ -25,13 +31,13 @@ This tool is intended for:
 
 ## ⚡ **Key Features**
 
-### 🛡️ **Multi-Layer Destruction Pipeline**
+### 🛡️ **Multi‑Layer Destruction Pipeline**
 
-1. **AES-256 Stream Encryption** – Converts file contents into high-entropy ciphertext.
-2. **Overwrite Engine** – Applies Random, DoD 5220.22-M, or Schneier 7-Pass overwrite patterns.
-3. **Anti-Forensic Obfuscation** – UUID renaming, timestamp wiping, and attribute clearing.
+1. **AES‑256 Stream Encryption** – Converts file contents into high‑entropy ciphertext.
+2. **Overwrite Engine** – Applies Random, DoD 5220.22‑M, or Schneier 7‑Pass overwrite patterns.
+3. **Anti‑Forensic Obfuscation** – UUID renaming, timestamp wiping, and attribute clearing.
 
-### 🌍 **Cross-Platform Intelligence**
+### 🌍 **Cross‑Platform Intelligence**
 
 * **Windows** → Detection & optional clearing of *Volume Shadow Copies (VSS)*.
 * **macOS** → Detection & removal of *local Time Machine snapshots*.
@@ -52,7 +58,7 @@ This tool is intended for:
 ### 🎨 **Modern GUI**
 
 * PyQt5-based dark interface.
-* Real-time progress tracking.
+* Real‑time progress tracking.
 * Multi-threaded operations without UI freeze.
 
 ---
@@ -136,7 +142,7 @@ Run as Administrator/Root to remove OS snapshots; otherwise remnants may persist
 
 1. Attribute unlock (`attrib`, `chattr`).
 2. Resident-file inflation (forces full block write).
-3. AES-256-CFB cryptographic shredding.
+3. AES‑256‑CFB cryptographic shredding.
 4. Overwrite engine (pattern-based).
 5. Triple-UUID renaming cycle.
 6. Timestamp wiping (access, modified, created).
